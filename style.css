@@ -1,0 +1,130 @@
+@import url(https://fonts.google.com/specimen/Overpass);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    height: 100vh;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    
+}
+
+.main , .thanks{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2.5rem;
+    max-width:23.5rem;
+    max-height: 24rem;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 5%;
+    padding: 1.6rem;
+}
+
+.header {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: hsl(216, 12%, 8%);
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.text-content h1 {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 1rem;
+
+}
+.text-content p {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    color: hsl(217, 12%, 63%);
+
+}
+
+
+.rating-component {
+    display: flex;
+    gap: 1rem;
+}
+
+.rating-component button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid hsl(216, 12%, 8%);
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(217, 12%, 63%);
+}
+
+.rating-component button:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+
+.submit {
+    width:100%;
+    min-height: 2.5rem;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 15px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+
+.submit:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+.thanks {
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.thanks p {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    color:hsl(217, 12%, 63%);
+}
+
+.thanks h1 {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+#thank-oragnge-p{
+    padding: 5px;
+    color:hsl(25, 97%, 53%);
+    background-color:  hsl(216, 12%, 8%);
+    width: 250px;
+    min-height: 2rem;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 15px;
+}
+
+
+.hidden {
+    display: none;
+}
